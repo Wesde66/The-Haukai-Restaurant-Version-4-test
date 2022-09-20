@@ -1,0 +1,256 @@
+* {
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 600px) {
+    .NavBar {
+        flex-direction: column;
+    }
+
+    .Footer {
+        flex-direction: column;
+    }
+
+    .Menu_Selection_Item {
+        flex-direction: column;
+        text-align: end;
+    }
+
+    .Menus {
+        flex-direction: column;
+    }
+
+    .tableContainerDrinks {
+        flex-direction: column;
+    }
+
+    .Display_Container {
+        flex-direction: column;
+    }
+
+    .Contact_Container {
+        flex-direction: column;
+    }
+
+    .Res_Container {
+        flex-direction: column;
+    }
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.Header {
+    background-color: aliceblue;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.NavBar {
+    display: flex;
+    background-color: aliceblue;
+    justify-content: center;
+}
+
+.NavBar a {
+    color: black;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.NavBar a:hover {
+    background-color: black;
+    color: white;
+}
+
+.Body_Home_Page {
+    text-align: -webkit-center;
+    padding-top: 50px;
+}
+
+.Body_Home_Page img {
+    border-radius: 35%;
+    border-style: solid;
+}
+
+li {
+    display: grid;
+}
+
+.Footer {
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+    border-top: 1px solid;
+}
+
+.Footer ul li a {
+    font-size: x-small;
+    text-decoration: none;
+    color: black;
+}
+
+.Footer h2 {
+    font-size: medium;
+    text-align: center;
+}
+
+.F_Coloumn {
+    text-align: center;
+}
+
+.Menu_Selection_Item {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5%;
+}
+
+.Menu_S_Item {
+    text-decoration: overline;
+}
+
+.Menu_S_Item a {
+    color: burlywood;
+}
+
+.Menus {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 55px;
+}
+
+.Menu_Coloumn {
+    padding-left: 10px;
+}
+
+.Menu_Item_Image img {
+    border-radius: 25%;
+}
+
+.Menu_Item_Image img:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
+
+.tableContainerDrinks {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.Display_Container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15%;
+    margin-top: 10%;
+}
+
+.Display_Container ul li a {
+    padding: 5px;
+}
+
+.Contact_Container {
+    padding: 60px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.Google_Calender {
+    text-align: center;
+}
+
+.Reservation_Form {
+    padding: 40px;
+    border: 1px solid black;
+    background-color: black;
+    color: aliceblue;
+}
+
+.Res_Form_Info {
+    margin-top: 50px;
+}
+
+.Privacy_Statment_Container {
+    text-align: center;
+    padding: 36px;
+}
+
+.OpeningHours tr td {
+    padding: 5px;
+}
+
+.Res_Container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Orders {
+    text-align: center;
+    padding: 245px;
+}
+
+.Orders h4 {
+    font-size: larger;
+}
+
+.Home_Page_Container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.About {
+    padding: 5%;
+    border: solid 3px black;
+    width: 25%;
+}
